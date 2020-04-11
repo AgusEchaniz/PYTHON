@@ -12,7 +12,6 @@ primeLetters = []
 
 for letter in set(word):
 	count = word.count(letter)
-	print (count)
 	counts[letter] = count
 	if es_primo(count):
 		primeLetters.append(letter)
